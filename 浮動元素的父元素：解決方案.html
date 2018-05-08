@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮動元素的父元素：解決方案</title>
+    <style>
+        body {
+            width: 750px;
+            color: #665544;
+            font-family: Arial, Verdana, sans-serif;
+        }
+        p {
+            width: 230px;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            background: #efefef;
+        }
+        .clear {
+            clear: left;
+        }
+        div {
+            border: 1px solid #665544;
+            overflow: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1>The Evolution of bicycle</h1>
+<div>
+    <p>In 1817 Baron von Drais invented a walking
+        machine that would help him get around
+         the royal gardnes faster.</p>
+    <p>The device know as the Draisienne (or "hobby horse")
+     was made of wood, and propelled by pushing your
+     feed on the ground in gilding movement.</p>
+    <p>It was not seen a suitable for any place
+     other than a well maintained pathway.</p>
+    <p class="clear">In 1865, the velocipede (missing "fast foot")
+     attached pedals to the front wheel, but its
+     wooden structure mad it extremely uncomfortable.</p>
+    <p>In 1870 the first all-metal machine appeared.
+     The pedals were attached directly to the front wheel.</p>
+    <p>Solid rubber tired and the long spokes of the large front wheel
+     provided a much smoother ride than is predecessor.</p>
+</div>
+</body>
+</html>
